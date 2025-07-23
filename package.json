@@ -1,0 +1,16 @@
+{
+  "name": "student-management",
+  "version": "1.0.0",
+  "description": "Creating API for Accessing student relevent informations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "author": "Prasanth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
